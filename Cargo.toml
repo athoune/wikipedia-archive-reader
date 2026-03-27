@@ -1,0 +1,13 @@
+[package]
+name = "wikipedia_archive_reader"
+version = "0.1.0"
+edition = "2021"
+description = "Fast Python library for reading Wikipedia archives built with Rust"
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module"] }
+regex = "1.10"
+
+[lib]
+name = "wikipedia_archive_reader"
+crate-type = ["cdylib"]

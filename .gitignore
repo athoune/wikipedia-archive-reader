@@ -1,0 +1,71 @@
+wikipedia_archive_reader/
+session*.md
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+.venv
+ENV/
+
+# Virtual environment (uv)
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+.cargo/
+
+# Archives (don't commit large files)
+*.xml
+*.bz2
+*.gz
+*.7z
+*.zip
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# IDE files
+.vscode/settings.json
+.idea/
+
+# Local testing
+test_archive.xml
+*.log
